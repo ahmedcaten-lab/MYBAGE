@@ -3,115 +3,102 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>شركة المستقبل الرقمية</title>
+<title>Vendo</title>
 
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Tahoma,sans-serif;}
 
-body{
-background:#f5f7fb;
-color:#222;
-}
+body{background:white;color:#111;}
 
 header{
-background:linear-gradient(135deg,#0f172a,#2563eb);
+background:#000;
 color:white;
-padding:80px 20px;
 text-align:center;
+padding:110px 20px;
 }
 
 header h1{
-font-size:48px;
-margin-bottom:15px;
+font-size:60px;
 }
 
 header p{
-font-size:20px;
+margin-top:15px;
+color:#bbb;
 max-width:700px;
 margin:auto;
+line-height:1.7;
 }
 
 .btn{
 display:inline-block;
 margin-top:25px;
-padding:14px 30px;
-background:white;
-color:#2563eb;
+padding:15px 35px;
+background:#2563eb;
+color:white;
 text-decoration:none;
-border-radius:30px;
+border-radius:50px;
 font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
 }
 
 section{
 padding:70px 20px;
-max-width:1200px;
+max-width:1100px;
 margin:auto;
 }
 
 .title{
 text-align:center;
-font-size:35px;
+font-size:34px;
 margin-bottom:40px;
 }
 
 .services{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:20px;
 }
 
 .card{
 background:white;
 padding:25px;
-border-radius:16px;
-box-shadow:0 5px 20px rgba(0,0,0,.08);
+border-radius:15px;
+border:1px solid #eee;
+box-shadow:0 5px 15px rgba(0,0,0,.05);
 }
 
-.card h3{
-margin-bottom:10px;
-}
+.card h3{color:#2563eb;margin-bottom:10px;}
 
-.about{
-display:flex;
-flex-wrap:wrap;
-gap:30px;
-align-items:center;
-}
-
-.about div{
-flex:1;
-min-width:300px;
-}
-
-.stats{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-gap:20px;
+.contact{
+background:#111;
+color:white;
+padding:60px;
 text-align:center;
+border-radius:15px;
 }
 
-.stat{
-background:white;
-padding:25px;
-border-radius:16px;
-box-shadow:0 5px 20px rgba(0,0,0,.08);
-}
-
-.stat h2{
-color:#2563eb;
-margin-bottom:10px;
+.whatsapp{
+display:inline-block;
+margin-top:20px;
+background:#25D366;
+color:white;
+padding:15px 35px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
 }
 
 footer{
-background:#0f172a;
-color:white;
 text-align:center;
-padding:30px;
+padding:25px;
+background:#000;
+color:#fff;
+margin-top:40px;
 }
 </style>
 </head>
@@ -119,77 +106,42 @@ padding:30px;
 <body>
 
 <header>
-<h1>شركة المستقبل الرقمية</h1>
-<p>نساعد الشركات والأفراد في إنشاء مواقع إلكترونية احترافية وتنمية أعمالهم على الإنترنت.</p>
-<a href="#" class="btn">ابدأ الآن</a>
+<h1>Vendo</h1>
+<p>نصمم مواقع احترافية للشركات والمتاجر والأفراد</p>
+
+<a class="btn"
+href="https://wa.me/201036733858?text=مرحباً، أريد تصميم موقع احترافي"
+target="_blank">
+تواصل معنا
+</a>
 </header>
 
 <section>
 <h2 class="title">خدماتنا</h2>
 
 <div class="services">
-
-<div class="card">
-<h3>تصميم مواقع</h3>
-<p>مواقع احترافية سريعة ومتجاوبة مع جميع الأجهزة.</p>
-</div>
-
-<div class="card">
-<h3>متاجر إلكترونية</h3>
-<p>إنشاء متجر إلكتروني كامل لبيع المنتجات والخدمات.</p>
-</div>
-
-<div class="card">
-<h3>تحسين الظهور</h3>
-<p>تحسين ظهور موقعك في نتائج البحث.</p>
-</div>
-
+<div class="card"><h3>تصميم مواقع</h3><p>مواقع حديثة وسريعة</p></div>
+<div class="card"><h3>متاجر إلكترونية</h3><p>بيع منتجاتك أونلاين</p></div>
+<div class="card"><h3>صفحات هبوط</h3><p>زيادة العملاء بسرعة</p></div>
 </div>
 </section>
 
 <section>
-<h2 class="title">من نحن</h2>
+<div class="contact">
+<h2>تواصل معنا الآن</h2>
+<p>اضغط الزر وسيتم فتح واتساب مباشرة 🔥</p>
 
-<div class="about">
-<div>
-<p>
-نمتلك خبرة في تصميم المواقع الحديثة وتقديم حلول رقمية تساعد العملاء على تحقيق أهدافهم بأفضل جودة ممكنة.
-</p>
-</div>
-
-<div>
-<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800"
-width="100%" style="border-radius:15px;">
-</div>
-</div>
-
-</section>
-
-<section>
-<h2 class="title">أرقامنا</h2>
-
-<div class="stats">
-
-<div class="stat">
-<h2>150+</h2>
-<p>عميل</p>
-</div>
-
-<div class="stat">
-<h2>300+</h2>
-<p>مشروع</p>
-</div>
-
-<div class="stat">
-<h2>5★</h2>
-<p>تقييم العملاء</p>
-</div>
+<a class="whatsapp"
+href="https://wa.me/201036733858?text=مرحباً، أحتاج تصميم موقع"
+target="_blank">
+راسلنا واتساب
+</a>
 
 </div>
 </section>
 
 <footer>
-<p>© 2026 جميع الحقوق محفوظة</p>
+© 2026 Vendo
 </footer>
 
 </body>
